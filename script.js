@@ -19,7 +19,7 @@ function updateMap(){
 
             
             new mapboxgl.Marker({
-                color: "#FFFFFF",
+                color: col,
                 draggable: false
                 }).setLngLat([longitude,latitude ])
                 .addTo(map);
